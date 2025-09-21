@@ -1,0 +1,111 @@
+@font-face {
+    font-family: broshk;
+    src: url("fonts/BroshK.ttf")
+}
+
+@font-face {
+    font-family: vcr;
+    src: url("fonts/VCR.ttf")
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    width: auto;
+    height: 400px;
+    background-image: url("images/banner.jpg");
+    font-family: 'broshk';
+    position: relative;
+}
+
+/* THE GREAT WALL OF MENU STYLING AHHHHHHHHHHHHHHHHHH */
+
+.menubase {
+    padding-inline: 30px;
+    padding-block: 20px;
+    background-color: rgba(0, 0, 0, 0.45);
+    width: auto;
+    border-radius: 30px;
+}
+
+.levelcontainer {
+    margin-top: -70px;
+    padding-top: 10px;
+    margin-inline: -10px;
+    border-top: 3px solid white;
+    display: flex;
+}
+
+.level {
+    margin-inline: 10px;
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 350px;
+    border-radius: 30px;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    width: auto;
+    border-radius: 15px;
+    padding-block: 1px;
+    margin-inline: 40px;
+    padding-block: 10px;
+}
+
+.credits {
+    margin-inline: 35px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url("images/sidebar.jpg");
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sideoption {
+    font-size: 20px;
+    width: auto;
+    border: 6px solid white;
+    border-radius: 10px;
+    margin-inline: 20px;
+    padding-inline: 20px;
+    padding-block: 10px;
+    margin-block: 15px;
+}
+
+.download {
+    display: inline;
+    background-color: #ffae01;
+    border-radius: 15px;
+    position: absolute;
+    right: 35px;
+    padding-right: 0;
+    height: auto;
+    width: 40px;
+    margin-top: -38px;
+}
